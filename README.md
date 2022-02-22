@@ -53,3 +53,10 @@ print(w * int(n))
 ```python
 print(a ** b) # a의 b승 출력
 ```
++ 몫 연산자는 `//`, 나머지 연산자는 `%`
+```python
+a = 10
+b = 3
+print(a // b) # 3
+print(a % b) # 1
+```
