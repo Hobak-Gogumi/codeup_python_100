@@ -93,3 +93,7 @@ print(n >> 2) # 10의 1/4(2^-2)배인 2 출력 (반으로 나누고 한 번 더 
 + 파이썬에서 정수 0은 False(거짓)로 평가되고, 그 외의 값들은 모두 True(참)로 평가
 + 참 또는 거짓의 논리값을 반대로 바꾸기 위해서 `not` 을 사용
 + 불(bool) 값을 다루어주는 예약어는 not, and, or가 있다
+
+### 비트단위논리연산
++ 비트단위 연산자는 `~(bitwise not)`, `&(bitwise and)`, `|(bitwise or)`, `^(bitwise xor)`, `<<(bitwise left shift)`, `>>(bitwise right shift)`가 있다.
++ -n = ~n + 1
