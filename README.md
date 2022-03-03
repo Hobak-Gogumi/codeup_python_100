@@ -97,3 +97,14 @@ print(n >> 2) # 10의 1/4(2^-2)배인 2 출력 (반으로 나누고 한 번 더 
 ### 비트단위논리연산
 + 비트단위 연산자는 `~(bitwise not)`, `&(bitwise and)`, `|(bitwise or)`, `^(bitwise xor)`, `<<(bitwise left shift)`, `>>(bitwise right shift)`가 있다.
 + -n = ~n + 1
+
+### 3항연산
++ `x if C else y`의 형태로 작성
+    - C: 조건식
+    - x: C의 평가 결과가 True 일 때 사용할 값
+    - y: C의 평가 결과가 False 일 때 사용할 값
++ 예시
+```python
+c = (a if (a>=b) else b)
+# a, b 중 큰 값을 구하는 법
+```
