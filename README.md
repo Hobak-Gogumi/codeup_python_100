@@ -172,3 +172,19 @@ for i in range(n-1, -1, -1): # n은 리스트 크기. 세번째 인자는 증감
     print(a[i], end= " ")
 ```
 + 리스트의 최소값, 최대값을 구하려면 `min(리스트명)`, `max(리스트명)`을 사용
++ 2차원 리스트
+    - 리스트가 들어있는 리스트를 만들면 2차원 리스트를 생성 가능
+    - `리스트이름[번호][번호]` 형식으로 접근 가능
+```python
+d = []
+
+for i in range(20):
+    d.append([])
+    for j in range(20):
+        d[i].append(0)
+
+# 크기가 20 * 20 이고, 0으로 채워진 2차원 리스트 만들기
+
+# d = [[0 for j in range(20)] for i in range(20)]
+# 이렇게 간단히 생성도 가능(List Comprehensions)
+```
